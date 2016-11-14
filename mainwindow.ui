@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pulsation Collecting Panel - UESTC</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>10</y>
+      <width>221</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QGroupBox" name="groupBox">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="title">
+        <string>Com Option</string>
+       </property>
+       <widget class="QWidget" name="gridLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>201</width>
+          <height>231</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_5">
+         <item row="1" column="0">
+          <widget class="QPushButton" name="closeBtn">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Close</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="openBtn">
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Open</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="gridLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>270</y>
+          <width>201</width>
+          <height>221</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="1" column="0">
+          <widget class="QLineEdit" name="pulsation2">
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLineEdit" name="pulsation3">
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLineEdit" name="pulsation1">
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QPushButton" name="viewBtn">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="text">
+            <string>View</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>531</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="rowWrapPolicy">
+      <enum>QFormLayout::WrapAllRows</enum>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="nameLabel">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="nameLineEdit">
+       <property name="font">
+        <font>
+         <family>宋体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="genderLabel">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Gender</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="genderComboBox">
+       <property name="font">
+        <font>
+         <family>宋体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>男</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>女</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="ageLabel">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Age</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="ageLineEdit">
+       <property name="font">
+        <font>
+         <family>宋体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="descriptionLabel">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Description</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QTextEdit" name="DescTextEdit">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>宋体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>531</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="submitBtn">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Submit</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="resetBtn">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Reset</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>771</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QProgressBar" name="progressBar">
+       <property name="value">
+        <number>0</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
